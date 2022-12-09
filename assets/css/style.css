@@ -15,7 +15,7 @@ header div img {
 .startlogo {
     background-color: #222f3f;
     text-align: left;
-    padding: 0.5% 1%;
+    padding: 0.5% 2.5%;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ header div nav p a {
 }
 
 .mainbar {
-    background-image: url(/assets/bg-image.png);
+    background-image: url(/assets/img/bg-image.png);
     color: white;
     margin-left: 2%;
     margin-right: 2%;
@@ -102,25 +102,25 @@ article div div p {
 }
 
 #box1 {
-    background-image: url(/assets/img_1.jpg);
+    background-image: url(/assets/img/img_1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box2 {
-    background-image: url(/assets/img_2.jpg);
+    background-image: url(/assets/img/img_2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box3 {
-    background-image: url(/assets/img_3.jpg);
+    background-image: url(/assets/img/img_3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #box4 {
-    background-image: url(/assets/img_4.jpg);
+    background-image: url(/assets/img/img_4.jpg);
     background-size: cover;
     background-position: center;
 }
