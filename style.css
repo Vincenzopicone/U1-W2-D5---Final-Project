@@ -24,7 +24,7 @@ header div img {
     margin: 0;
     color: white;
     text-align: left;
-       
+         
 }
 
 .navbar-text {
@@ -90,10 +90,11 @@ main article div .mainbox {
 
 .box {
     width: 20%;
-    height: 40vh;
-    margin: 1em 1em;
+    height: 43vh;
+    margin: 2% 2.3% ;
     border-radius: 20% 20% 20% 20% / 15% 15% 15% 15%;
     display: inline-block;
+    box-shadow: 6.5px 9.5px 6.5px 3px grey;
 }
 
 article div div p {
