@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;  
+    text-align: center;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER*/
+
+header div img {
+    width: 10%;
+}
+
+.startlogo {
+    background-color: #222f3f;
+    text-align: left;
+    padding: 0.5% 1%;
+}
+
+.navbar {
+    background-color: #364757;
+    padding: 0.3% 1%;
+    margin: 0;
+    color: white;
+    text-align: left;
+       
+}
+
+.navbar-text {
+    display: inline;
+    margin: 0.3%;
+    padding-left: 0.6%;
+}
+
+header div nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+.orangebar {
+    color: white;
+    background-color: orange;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-size: 1.1rem;
+    margin: 2%;
+}
+
+.mainbar {
+    background-image: url(/assets/bg-image.png);
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.titletext {
+    padding: 1.5%;
+}
+
+/*ARTICLE*/
+
+.articlebg {
+    background-color: white;
+    margin: 2%;
+    padding: 1.2%;
+} 
+
+.articlebox-img {
+    display: inline;
+}
+
+.articletitle {
+    text-align: left;
+    font-weight: bolder;
+}
+
+div div a{
+    padding: 1%;
+    text-decoration: none;
+    color:cadetblue;
+}
+
+article div img {
+    width: 20%;
+}
+
+div div .articlebox-img img {
+    box-shadow: 1% 31% grey;
+    border-radius: 6%;
+    width: 20%;
+    margin: 1% 1%;
+}
+
+/*ASIDE*/
+
+aside {
+    margin-right: 2%;
+    margin-left: 2%;
+    
+
+}
+
+aside div div div img {
+    margin-right: 2%;
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 0.3%;
+}
+
+.asidetitle {
+    font-weight: bolder;
+    font-weight: 1.2rem;
+}
+
+aside div div div a {
+    padding: 1%;
+    text-decoration: none;
+    color:cadetblue;
+
+}
+
+.final-button {
+    background-color: #364759;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+body section div a {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #222f3f;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+footer div img {
+    width: 15%;
+}
