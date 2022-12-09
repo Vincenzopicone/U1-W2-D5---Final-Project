@@ -11,7 +11,9 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 
-console.log("Esercizio 1:", pets);
+for (let index = 0; index < pets.length; index++) {
+  console.log("Esercizio 1:", pets[index]);
+}
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
@@ -121,14 +123,12 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
 
-let cicloIndex = 0;
+let ciclo = 0;
 
-while (cicloIndex < numericArray.lenght) {
-  console.log("Esercizio 9:", numericArray[cicloIndex]);
-  if (numericArray[cicloIndex] === 32) {
-    break;
-  }
-  cicloIndex++;
+while (ciclo < numericArray.length) {
+  console.log("Esercizio 9:", numericArray[ciclo]);
+  if (numericArray[ciclo] === 32) break;
+  ciclo++;
 }
 
 /* ESERCIZIO 10
@@ -136,4 +136,30 @@ while (cicloIndex < numericArray.lenght) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = [g, n, u, z, d];
+const charactersArray = ["g", "n", "u", "z", "d"];
+
+const ordineNumerico = [];
+let aggiungi = 0;
+
+for (let index = 0; index < charactersArray.length; index++) {
+  switch (charactersArray[index]) {
+    case "g":
+      aggiungi = 7;
+      break;
+    case "n":
+      aggiungi = 11;
+      break;
+    case "u":
+      aggiungi = 19;
+      break;
+    case "z":
+      aggiungi = 21;
+      break;
+    case "d":
+      aggiungi = 4;
+      break;
+  }
+  ordineNumerico.push(aggiungi);
+}
+
+console.log("Esercizio 10:", ordineNumerico);
