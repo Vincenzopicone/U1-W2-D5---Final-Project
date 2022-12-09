@@ -65,9 +65,11 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
+let targa = 111;
 
 for (let index = 0; index < cars.length; index++) {
-  cars[index].licensePlate = "B+B1";
+  cars[index].licensePlate = "AA" + targa + "BB";
+  targa = targa + 222;
 }
 
 console.log("Esercizio 5:", cars);
@@ -81,7 +83,7 @@ const newcar = {
   model: "Kuga",
   color: "grey",
   trims: ["titanium", "st-linex", "sport"],
-  licensePlate: "B+B1",
+  licensePlate: "AA" + 444 + "BB",
 };
 
 cars.push(newcar);
@@ -139,26 +141,39 @@ while (ciclo < numericArray.length) {
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 const ordineNumerico = [];
+
+const alfabeto = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "z",
+];
+
 let aggiungi = 0;
 
 for (let index = 0; index < charactersArray.length; index++) {
-  switch (charactersArray[index]) {
-    case "g":
-      aggiungi = 7;
-      break;
-    case "n":
-      aggiungi = 11;
-      break;
-    case "u":
-      aggiungi = 19;
-      break;
-    case "z":
-      aggiungi = 21;
-      break;
-    case "d":
-      aggiungi = 4;
-      break;
-  }
+  for (let index2 = 0; index2 < alfabeto.length; index2++)
+    switch (true) {
+      case alfabeto[index2] === charactersArray[index]:
+        ordineNumerico.push(index2 + 1);
+    }
   ordineNumerico.push(aggiungi);
 }
 
